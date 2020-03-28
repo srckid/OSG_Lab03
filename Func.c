@@ -46,7 +46,7 @@ void disk_usage() {
 }
 
 void count_current_dir() {
- 	system("echo Number of directories in current directory: ");
-	system("find -maxdepth 1 -type d -printf '%f\n' | wc -l ");
-	system("find -maxdepth 1 -type d -printf '%f\n'");
+  system("echo Number of directories in current directory: ");
+  system("find -maxdepth 1 -type d -printf '%f\n' | wc -l ");
+  system("find -maxdepth 1 -type d -printf '%f\n'");
 }
